@@ -1,0 +1,71 @@
+
+  <header>
+    <div class="container nav">
+      <div class="brand"><span class="dot"></span> <a href="/" aria-label="LucrezLocal.ro">LucrezLocal.ro</a></div>
+      <nav class="pills" style="margin-left:auto;display:flex;gap:10px;align-items:center">
+        <a href="/categorii.html">Categorii</a>
+        <a href="/cum-functioneaza.html">Cum funcționează</a>
+        <a class="cta" href="/devino-prestator.html">Devino prestator</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <span class="badge">Pilot Focșani & împrejurimi</span>
+      <h1>Găsește rapid <span style="color:var(--accent)">serviciul</span> de care ai nevoie</h1>
+      <p class="lead">Profesioniști locali, verificați, aproape de tine.</p>
+      <form class="search" action="/categorii.html" role="search">
+        <input name="q" placeholder="Ex.: instalator, tâmplar, electrician">
+        <input name="loc" placeholder="Focșani, Vrancea">
+        <select name="cat" aria-label="Alege categorie">
+          <option value="">— Alege categorie —</option>
+        </select>
+        <button type="submit">Caută</button>
+      </form>
+    </div>
+  </section>
+
+  <main class="container" style="padding:24px 16px;">
+    <h2 style="margin:0 0 12px;">Servicii populare în zona ta</h2>
+    <div id="popular" class="grid"></div>
+
+    <div style="margin:28px 0 8px;display:flex;justify-content:space-between;align-items:center">
+      <h2 style="margin:0;">Categorii principale</h2>
+      <a href="/categorii.html" class="small" style="color:var(--accent-2);font-weight:700">Vezi toate →</a>
+    </div>
+    <div id="cats" class="grid"></div>
+  </main>
+
+  <footer>
+    <div class="container cols" style="padding:20px 16px">
+      <div>
+        <div class="brand" style="color:#fff;margin-bottom:8px"><span class="dot"></span> <a href="/" aria-label="LucrezLocal.ro" style="color:#fff">LucrezLocal.ro</a></div>
+        <p>Conectăm oamenii cu profesioniștii locali. Pilot în Focșani, extindere la nivel național.</p>
+      </div>
+      <div>
+        <h3>Link-uri</h3>
+        <p><a href="/categorii.html">Categorii</a></p>
+        <p><a href="/devino-prestator.html">Devino prestator</a></p>
+        <p><a href="/contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h3>Legal</h3>
+        <p><a href="/termeni.html">Termeni & Condiții</a></p>
+        <p><a href="/confidentialitate.html">Politica de confidențialitate</a></p>
+      </div>
+    </div>
+    <div class="container" style="padding:8px 16px;border-top:1px solid rgba(255,255,255,.08)">
+      <small>© 2025 LucrezLocal.ro</small>
+    </div>
+  </footer>
+
+  <script src="/assets/scripts.js"></script>
+  <script>
+    loadJSON('/assets/taxonomy.json').then(data=>{
+      const sel = document.querySelector('select[name="cat"]');
+      data.categories.forEach(c=>{ const o=document.createElement('option'); o.value=c.slug; o.textContent=c.name; sel.appendChild(o); });
+    });
+    renderCategories('#popular', 4);
+    renderCategories('#cats');
+  </script>

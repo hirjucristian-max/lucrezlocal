@@ -1,0 +1,425 @@
+{
+  "generated": "2025-11-04",
+  "theme": "A - Warm & Friendly",
+  "categories": [
+    {
+      "name": "Servicii IT",
+      "slug": "servicii-it",
+      "icon": "💻",
+      "subcategories": [
+        {
+          "name": "Reparații laptop/PC",
+          "slug": "reparatii-laptop-pc"
+        },
+        {
+          "name": "Instalare software",
+          "slug": "instalare-software"
+        },
+        {
+          "name": "Recuperare date",
+          "slug": "recuperare-date"
+        },
+        {
+          "name": "Rețele & Wi-Fi",
+          "slug": "retele-wifi"
+        },
+        {
+          "name": "Service telefoane",
+          "slug": "service-telefoane"
+        },
+        {
+          "name": "Mentenanță IT pentru firme",
+          "slug": "mentenanta-it-firme"
+        }
+      ]
+    },
+    {
+      "name": "Curățenie",
+      "slug": "curatenie",
+      "icon": "🫧",
+      "subcategories": [
+        {
+          "name": "Curățenie rezidențială",
+          "slug": "curatenie-rezidentiala"
+        },
+        {
+          "name": "Curățenie birouri",
+          "slug": "curatenie-birouri"
+        },
+        {
+          "name": "Curățenie după renovare",
+          "slug": "curatenie-dupa-renovare"
+        },
+        {
+          "name": "Spălare canapele & covoare",
+          "slug": "spalare-canapele-covoare"
+        },
+        {
+          "name": "Curățenie la scară bloc",
+          "slug": "curatenie-scara-bloc"
+        }
+      ]
+    },
+    {
+      "name": "Instalații electrice",
+      "slug": "instalatii-electrice",
+      "icon": "⚡",
+      "subcategories": [
+        {
+          "name": "Electrician autorizat",
+          "slug": "electrician-autorizat"
+        },
+        {
+          "name": "Panou siguranțe",
+          "slug": "panou-sigurante"
+        },
+        {
+          "name": "Corpuri de iluminat",
+          "slug": "corpuri-iluminat"
+        },
+        {
+          "name": "Prize & întrerupătoare",
+          "slug": "prize-intrerupatoare"
+        },
+        {
+          "name": "Verificări & remedieri",
+          "slug": "verificari-remedieri"
+        }
+      ]
+    },
+    {
+      "name": "Instalații sanitare",
+      "slug": "instalatii-sanitare",
+      "icon": "🚿",
+      "subcategories": [
+        {
+          "name": "Instalator urgent",
+          "slug": "instalator-urgent"
+        },
+        {
+          "name": "Montaj obiecte sanitare",
+          "slug": "montaj-obiecte-sanitare"
+        },
+        {
+          "name": "Țevi & scurgeri",
+          "slug": "tevi-scurgeri"
+        },
+        {
+          "name": "Centrală termică",
+          "slug": "centrala-termica"
+        },
+        {
+          "name": "Băi complete",
+          "slug": "bai-complete"
+        }
+      ]
+    },
+    {
+      "name": "Tâmplărie & Mobilă",
+      "slug": "tamplarie-mobila",
+      "icon": "🪚",
+      "subcategories": [
+        {
+          "name": "Mobilă la comandă",
+          "slug": "mobila-la-comanda"
+        },
+        {
+          "name": "Reparații mobilă",
+          "slug": "reparatii-mobila"
+        },
+        {
+          "name": "Uși & ferestre",
+          "slug": "usi-ferestre"
+        },
+        {
+          "name": "Blaturi & rafturi",
+          "slug": "blaturi-rafturi"
+        },
+        {
+          "name": "Montaj mobilier",
+          "slug": "montaj-mobilier"
+        }
+      ]
+    },
+    {
+      "name": "Construcții & Renovări",
+      "slug": "constructii-renovari",
+      "icon": "🏗️",
+      "subcategories": [
+        {
+          "name": "Zidărie & tencuieli",
+          "slug": "zidarie-tencuieli"
+        },
+        {
+          "name": "Rigips & finisaje",
+          "slug": "rigips-finisaje"
+        },
+        {
+          "name": "Parchet & gresie",
+          "slug": "parchet-gresie"
+        },
+        {
+          "name": "Acoperișuri",
+          "slug": "acoperisuri"
+        },
+        {
+          "name": "Fațade & termoizolații",
+          "slug": "fatade-termoizolatii"
+        }
+      ]
+    },
+    {
+      "name": "Transport & Mutări",
+      "slug": "transport-mutari",
+      "icon": "🚚",
+      "subcategories": [
+        {
+          "name": "Mutări locuințe",
+          "slug": "mutari-locuinte"
+        },
+        {
+          "name": "Transport mobilier",
+          "slug": "transport-mobilier"
+        },
+        {
+          "name": "Curier local",
+          "slug": "curier-local"
+        },
+        {
+          "name": "Mutări internaționale",
+          "slug": "mutari-internationale"
+        }
+      ]
+    },
+    {
+      "name": "Foto & Video",
+      "slug": "foto-video",
+      "icon": "📷",
+      "subcategories": [
+        {
+          "name": "Fotografie evenimente",
+          "slug": "fotografie-evenimente"
+        },
+        {
+          "name": "Portrete & familie",
+          "slug": "portrete-familie"
+        },
+        {
+          "name": "Videografie",
+          "slug": "videografie"
+        },
+        {
+          "name": "Editare foto/video",
+          "slug": "editare-foto-video"
+        }
+      ]
+    },
+    {
+      "name": "Frizerie & Coafor",
+      "slug": "frizerie-coafor",
+      "icon": "✂️",
+      "subcategories": [
+        {
+          "name": "Frizerie",
+          "slug": "frizerie"
+        },
+        {
+          "name": "Coafor & styling",
+          "slug": "coafor-styling"
+        },
+        {
+          "name": "Manichiură & pedichiură",
+          "slug": "manichiura-pedichiura"
+        },
+        {
+          "name": "Cosmetică",
+          "slug": "cosmetica"
+        }
+      ]
+    },
+    {
+      "name": "Sănătate & Wellness",
+      "slug": "sanatate-wellness",
+      "icon": "💗",
+      "subcategories": [
+        {
+          "name": "Masaj terapeutic",
+          "slug": "masaj-terapeutic"
+        },
+        {
+          "name": "Kinetoterapie",
+          "slug": "kinetoterapie"
+        },
+        {
+          "name": "Nutriție",
+          "slug": "nutritie"
+        },
+        {
+          "name": "Antrenor personal",
+          "slug": "antrenor-personal"
+        }
+      ]
+    },
+    {
+      "name": "Psihologie & Terapie",
+      "slug": "psihologie-terapie",
+      "icon": "🧠",
+      "subcategories": [
+        {
+          "name": "Psiholog",
+          "slug": "psiholog"
+        },
+        {
+          "name": "Psihoterapie",
+          "slug": "psihoterapie"
+        },
+        {
+          "name": "Coaching",
+          "slug": "coaching"
+        },
+        {
+          "name": "Logopedie",
+          "slug": "logopedie"
+        }
+      ]
+    },
+    {
+      "name": "Educație & Meditații",
+      "slug": "educatie-meditatii",
+      "icon": "📚",
+      "subcategories": [
+        {
+          "name": "Meditații școlare",
+          "slug": "meditatii-scolare"
+        },
+        {
+          "name": "Limbi străine",
+          "slug": "limbi-straine"
+        },
+        {
+          "name": "Muzică & artă",
+          "slug": "muzica-arta"
+        },
+        {
+          "name": "Programare & STEM",
+          "slug": "programare-stem"
+        }
+      ]
+    },
+    {
+      "name": "Servicii auto",
+      "slug": "servicii-auto",
+      "icon": "🚗",
+      "subcategories": [
+        {
+          "name": "Mecanic auto",
+          "slug": "mecanic-auto"
+        },
+        {
+          "name": "Detailing & polish",
+          "slug": "detailing-polish"
+        },
+        {
+          "name": "Vulcanizare",
+          "slug": "vulcanizare"
+        },
+        {
+          "name": "Tractări auto",
+          "slug": "tractari-auto"
+        }
+      ]
+    },
+    {
+      "name": "Marketing & Design",
+      "slug": "marketing-design",
+      "icon": "🎨",
+      "subcategories": [
+        {
+          "name": "Branding & logo",
+          "slug": "branding-logo"
+        },
+        {
+          "name": "Web design",
+          "slug": "web-design"
+        },
+        {
+          "name": "Social media",
+          "slug": "social-media"
+        },
+        {
+          "name": "Copywriting",
+          "slug": "copywriting"
+        }
+      ]
+    },
+    {
+      "name": "Financiar & Contabilitate",
+      "slug": "financiar-contabilitate",
+      "icon": "💰",
+      "subcategories": [
+        {
+          "name": "Contabil",
+          "slug": "contabil"
+        },
+        {
+          "name": "Consultanță fiscală",
+          "slug": "consultanta-fiscala"
+        },
+        {
+          "name": "Consultanță fonduri",
+          "slug": "consultanta-fonduri"
+        },
+        {
+          "name": "Asigurări",
+          "slug": "asigurari"
+        }
+      ]
+    },
+    {
+      "name": "Servicii juridice",
+      "slug": "servicii-juridice",
+      "icon": "⚖️",
+      "subcategories": [
+        {
+          "name": "Avocat",
+          "slug": "avocat"
+        },
+        {
+          "name": "Mediator",
+          "slug": "mediator"
+        },
+        {
+          "name": "Notariat (programare)",
+          "slug": "notariat"
+        },
+        {
+          "name": "Consultanță companii",
+          "slug": "consultanta-companii"
+        }
+      ]
+    },
+    {
+      "name": "Veterinare & Animale",
+      "slug": "veterinare-animale",
+      "icon": "🐾",
+      "subcategories": [
+        {
+          "name": "Cabinet veterinar",
+          "slug": "cabinet-veterinar"
+        },
+        {
+          "name": "Grooming",
+          "slug": "grooming"
+        },
+        {
+          "name": "Dresaj",
+          "slug": "dresaj"
+        },
+        {
+          "name": "Pensiune animale",
+          "slug": "pensiune-animale"
+        }
+      ]
+    }
+  ]
+}

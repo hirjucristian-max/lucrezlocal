@@ -1,0 +1,42 @@
+
+:root{
+  --bg:#FFF7ED;
+  --card:#FFFBEB;
+  --text:#111827;
+  --muted:#374151;
+  --accent:#F59E0B;
+  --accent-2:#16A34A;
+  --pill:#FDE68A;
+  --border:#F3F4F6;
+  --footer:#0F172A;
+  --footer-text:#E5E7EB;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Arial}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;height:auto}
+.container{max-width:1120px;margin:0 auto;padding:16px}
+header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--border)}
+.nav{display:flex;align-items:center;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.2rem}
+.brand .dot{width:10px;height:10px;border-radius:999px;background:var(--accent)}
+.brand a{font-weight:800;font-size:1.2rem}
+.pills a{display:inline-block;padding:8px 14px;border:2px solid var(--border);border-radius:999px;background:#fff}
+.pills a.cta{background:var(--accent);color:#000;border-color:transparent;font-weight:700}
+.hero{background:var(--card);padding:56px 16px}
+h1{font-size:clamp(1.8rem,2.4vw + 1rem,3rem);margin:0 0 12px}
+.lead{color:var(--muted)}
+.search{display:grid;grid-template-columns:1.2fr 0.8fr 0.8fr auto;gap:10px;margin-top:18px}
+input,select,button{padding:12px 14px;border-radius:16px;border:2px solid var(--border);background:#fff;font:inherit;color:var(--text)}
+button{cursor:pointer;background:var(--accent);border-color:transparent;font-weight:700}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.card{background:#fff;border:1px solid var(--border);border-radius:20px;padding:18px;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+.card .ico{font-size:28px;display:inline-grid;place-items:center;width:52px;height:52px;border-radius:999px;background:var(--card);margin-bottom:10px}
+.badge{display:inline-block;background:var(--pill);padding:6px 10px;border-radius:999px;border:1px dashed var(--accent);font-weight:600}
+footer{background:var(--footer);color:var(--footer-text);margin-top:40px}
+footer a{color:var(--footer-text);opacity:.9}
+footer .cols{display:grid;gap:18px;grid-template-columns:2fr 1fr 1fr}
+@media(max-width:900px){.search{grid-template-columns:1fr}.pills{display:none}footer .cols{grid-template-columns:1fr}}
+.small{font-size:.92rem}
+.kbd{border:1px solid var(--border);padding:2px 8px;border-radius:6px;background:#fff}
+.note{background:#fff;border:1px solid var(--border);padding:14px;border-radius:14px}
