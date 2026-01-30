@@ -27,7 +27,7 @@ export default function DevinoPrestatorPage() {
         Cererile sunt moderate manual în faza pilot.
       </p>
 
-      {/* Bara de pași – folosim exact clasele .steps / .step ca în HTML */}
+      {/* Bara de pași */}
       <div className="steps">
         <button
           type="button"
@@ -52,23 +52,8 @@ export default function DevinoPrestatorPage() {
         </button>
       </div>
 
-      {/* Formular Netlify – structură identică cu HTML-ul inițial */}
-      <form
-        name="adauga-serviciu"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-        className="wizard"
-      >
-        <input type="hidden" name="form-name" value="adauga-serviciu" />
-
-        {/* Honeypot ascuns – EXACT ca în HTML (display:none) */}
-        <p style={{ display: "none" }}>
-          <label>
-            Nu completa: <input name="bot-field" />
-          </label>
-        </p>
-
+      {/* Formular (fără Netlify Forms) */}
+      <form className="wizard">
         {/* === PAGINA 1 – DETALII SERVICIU === */}
         {step === 0 && (
           <section className="page active" data-page="1">
@@ -161,8 +146,7 @@ export default function DevinoPrestatorPage() {
                   />
                 </label>
                 <p className="hint">
-                  Poți încărca poze înainte/după, echipamente, certificări. (În
-                  faza pilot, imaginile se transmit ca atașamente la formular.)
+                  Poți încărca poze înainte/după, echipamente, certificări.
                 </p>
               </div>
 
@@ -185,34 +169,21 @@ export default function DevinoPrestatorPage() {
                   <label>
                     Oraș / Localitate
                     <br />
-                    <input
-                      name="oras"
-                      placeholder="Ex: Focșani"
-                      required
-                    />
+                    <input name="oras" placeholder="Ex: Focșani" required />
                   </label>
                 </p>
                 <p>
                   <label>
                     Județ
                     <br />
-                    <input
-                      name="judet"
-                      placeholder="Ex: Vrancea"
-                      required
-                    />
+                    <input name="judet" placeholder="Ex: Vrancea" required />
                   </label>
                 </p>
                 <p>
                   <label>
                     Acoperire (raza km)
                     <br />
-                    <input
-                      name="raza"
-                      type="number"
-                      min={0}
-                      placeholder="Ex: 30"
-                    />
+                    <input name="raza" type="number" min={0} />
                   </label>
                 </p>
               </div>
@@ -222,13 +193,7 @@ export default function DevinoPrestatorPage() {
                   <label>
                     Preț orientativ
                     <br />
-                    <input
-                      name="pret"
-                      type="number"
-                      min={0}
-                      step="0.01"
-                      placeholder="Ex: 150"
-                    />
+                    <input name="pret" type="number" min={0} step="0.01" />
                   </label>
                 </p>
                 <p>
@@ -250,11 +215,6 @@ export default function DevinoPrestatorPage() {
                   </label>
                 </p>
               </div>
-
-              <p className="hint">
-                Prețul este orientativ și poate fi stabilit exact după
-                discuție.
-              </p>
 
               <div className="actions">
                 <button type="button" onClick={() => setStep(0)}>
@@ -284,10 +244,7 @@ export default function DevinoPrestatorPage() {
                   <label>
                     CUI (opțional)
                     <br />
-                    <input
-                      name="cui"
-                      placeholder="Ex: RO12345678"
-                    />
+                    <input name="cui" />
                   </label>
                 </p>
               </div>
@@ -311,18 +268,15 @@ export default function DevinoPrestatorPage() {
                   <label>
                     Website / Social (opțional)
                     <br />
-                    <input
-                      name="website"
-                      placeholder="Ex: https://facebook.com/…"
-                    />
+                    <input name="website" />
                   </label>
                 </p>
               </div>
 
               <p>
                 <label>
-                  <input type="checkbox" name="termeni" required /> Sunt de
-                  acord cu Termenii și Politica de confidențialitate.
+                  <input type="checkbox" name="termeni" required /> Sunt de acord
+                  cu Termenii și Politica de confidențialitate.
                 </label>
               </p>
 
